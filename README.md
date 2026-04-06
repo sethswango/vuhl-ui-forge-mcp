@@ -1,8 +1,15 @@
 # VuhluiForge MCP
 
-`VuhluiForge MCP` is the MCP-focused companion to the `VuhluiForge` app fork.
+This repo is now a transitional split copy of the MCP scaffold.
 
-Its goal is to turn screenshot-driven UI generation into a context-aware workflow that works well from Cursor, Claude Code, and related IDE-driven tooling, with special attention to Angular integration.
+The canonical development home for `VuhluiForge` has moved to:
+
+- `C:\dev\Screenshot-To-Code`
+- `https://github.com/sethswango/vuhl-ui-forge`
+
+The MCP layer now lives inside that unified repo under `mcp/`.
+
+Its goal remains the same: turn image-driven UI generation into a context-aware workflow that works well from Cursor, Claude Code, and related IDE-driven tooling, with special attention to Angular integration.
 
 ## Project Intent
 
@@ -17,7 +24,7 @@ The long-term emphasis is not just "screenshot to code", but "screenshot to code
 
 ## Current Local State
 
-This local snapshot is intentionally preserved and publishable, but it is still a scaffold rather than a complete implementation.
+This local snapshot is intentionally preserved and publishable, but it is no longer the primary place to continue development.
 
 Currently present:
 
@@ -142,12 +149,12 @@ Those commands depend on the `src/` implementation tree being present.
 
 ## Publishing Notes
 
-This repo is the MCP publication target.
+This repo remains useful as a transitional publishing target and compatibility mirror.
 
 - Personal GitHub target: `sethswango/vuhl-ui-forge-mcp`
 - Work GitHub target: `vu-pdt/VUHL-UI-Forge-MCP`
 
-The app-side repo is separate and should remain under the personal `VuhluiForge` fork path.
+Ongoing implementation work should happen in the unified `VuhluiForge` repo.
 
 ## Related Docs
 
